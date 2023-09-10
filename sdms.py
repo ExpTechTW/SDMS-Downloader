@@ -73,6 +73,8 @@ if num.isdigit():
                 else:
                     tqdm.write("Error => 測站 {} 資料 [打包] 失敗!".format(station))
                     pbar.update(1)
+        if os.path.exists("./output/cache"):
+            shutil.rmtree("./output/cache")
     else:
         print("查無此編號的地震")
 else:
