@@ -1,9 +1,9 @@
-# 模板
+# SDMS-Downloder
 <img alt="Discord" src="https://img.shields.io/discord/926545182407688273">
 
 ------
 
-- 這是一個 ExpTech Github 模板
+- 一次打包 特定 `檢知編號` 中 所有測站 的 `波形圖` `合成圖` `SAC檔`
 
 ## 索引
 - [貢獻者](#貢獻者)
